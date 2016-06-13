@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84DE2C061D0E7B95000156AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DE2C051D0E7B95000156AC /* main.m */; };
+		84DE2C091D0E7B95000156AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DE2C081D0E7B95000156AC /* AppDelegate.m */; };
+		84DE2C0C1D0E7B95000156AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DE2C0B1D0E7B95000156AC /* ViewController.m */; };
+		84DE2C0F1D0E7B95000156AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DE2C0D1D0E7B95000156AC /* Main.storyboard */; };
+		84DE2C111D0E7B95000156AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DE2C101D0E7B95000156AC /* Assets.xcassets */; };
+		84DE2C141D0E7B95000156AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DE2C121D0E7B95000156AC /* LaunchScreen.storyboard */; };
+		84DE2C1F1D0E7B95000156AC /* TTMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DE2C1E1D0E7B95000156AC /* TTMusicTests.m */; };
+		84DE2C2A1D0E7B95000156AC /* TTMusicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DE2C291D0E7B95000156AC /* TTMusicUITests.m */; };
+		84DE2C381D0E7C20000156AC /* mlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84DE2C371D0E7C20000156AC /* mlist.plist */; };
+		84DE2C3A1D0E7C2F000156AC /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 84DE2C391D0E7C2F000156AC /* Assets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84DE2C1B1D0E7B95000156AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84DE2BF91D0E7B95000156AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84DE2C001D0E7B95000156AC;
+			remoteInfo = TTMusic;
+		};
+		84DE2C261D0E7B95000156AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84DE2BF91D0E7B95000156AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84DE2C001D0E7B95000156AC;
+			remoteInfo = TTMusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84DE2C011D0E7B95000156AC /* TTMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DE2C051D0E7B95000156AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84DE2C071D0E7B95000156AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84DE2C081D0E7B95000156AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84DE2C0A1D0E7B95000156AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84DE2C0B1D0E7B95000156AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84DE2C0E1D0E7B95000156AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84DE2C101D0E7B95000156AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84DE2C131D0E7B95000156AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84DE2C151D0E7B95000156AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DE2C1A1D0E7B95000156AC /* TTMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DE2C1E1D0E7B95000156AC /* TTMusicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTMusicTests.m; sourceTree = "<group>"; };
+		84DE2C201D0E7B95000156AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DE2C251D0E7B95000156AC /* TTMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DE2C291D0E7B95000156AC /* TTMusicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTMusicUITests.m; sourceTree = "<group>"; };
+		84DE2C2B1D0E7B95000156AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DE2C371D0E7C20000156AC /* mlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = mlist.plist; sourceTree = "<group>"; };
+		84DE2C391D0E7C2F000156AC /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84DE2BFE1D0E7B95000156AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DE2C171D0E7B95000156AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DE2C221D0E7B95000156AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84DE2BF81D0E7B95000156AC = {
+			isa = PBXGroup;
+			children = (
+				84DE2C031D0E7B95000156AC /* TTMusic */,
+				84DE2C1D1D0E7B95000156AC /* TTMusicTests */,
+				84DE2C281D0E7B95000156AC /* TTMusicUITests */,
+				84DE2C021D0E7B95000156AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84DE2C021D0E7B95000156AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84DE2C011D0E7B95000156AC /* TTMusic.app */,
+				84DE2C1A1D0E7B95000156AC /* TTMusicTests.xctest */,
+				84DE2C251D0E7B95000156AC /* TTMusicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84DE2C031D0E7B95000156AC /* TTMusic */ = {
+			isa = PBXGroup;
+			children = (
+				84DE2C071D0E7B95000156AC /* AppDelegate.h */,
+				84DE2C081D0E7B95000156AC /* AppDelegate.m */,
+				84DE2C0A1D0E7B95000156AC /* ViewController.h */,
+				84DE2C0B1D0E7B95000156AC /* ViewController.m */,
+				84DE2C0D1D0E7B95000156AC /* Main.storyboard */,
+				84DE2C391D0E7C2F000156AC /* Assets */,
+				84DE2C101D0E7B95000156AC /* Assets.xcassets */,
+				84DE2C121D0E7B95000156AC /* LaunchScreen.storyboard */,
+				84DE2C151D0E7B95000156AC /* Info.plist */,
+				84DE2C371D0E7C20000156AC /* mlist.plist */,
+				84DE2C041D0E7B95000156AC /* Supporting Files */,
+			);
+			path = TTMusic;
+			sourceTree = "<group>";
+		};
+		84DE2C041D0E7B95000156AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84DE2C051D0E7B95000156AC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84DE2C1D1D0E7B95000156AC /* TTMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				84DE2C1E1D0E7B95000156AC /* TTMusicTests.m */,
+				84DE2C201D0E7B95000156AC /* Info.plist */,
+			);
+			path = TTMusicTests;
+			sourceTree = "<group>";
+		};
+		84DE2C281D0E7B95000156AC /* TTMusicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84DE2C291D0E7B95000156AC /* TTMusicUITests.m */,
+				84DE2C2B1D0E7B95000156AC /* Info.plist */,
+			);
+			path = TTMusicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84DE2C001D0E7B95000156AC /* TTMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DE2C2E1D0E7B95000156AC /* Build configuration list for PBXNativeTarget "TTMusic" */;
+			buildPhases = (
+				84DE2BFD1D0E7B95000156AC /* Sources */,
+				84DE2BFE1D0E7B95000156AC /* Frameworks */,
+				84DE2BFF1D0E7B95000156AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTMusic;
+			productName = TTMusic;
+			productReference = 84DE2C011D0E7B95000156AC /* TTMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84DE2C191D0E7B95000156AC /* TTMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DE2C311D0E7B95000156AC /* Build configuration list for PBXNativeTarget "TTMusicTests" */;
+			buildPhases = (
+				84DE2C161D0E7B95000156AC /* Sources */,
+				84DE2C171D0E7B95000156AC /* Frameworks */,
+				84DE2C181D0E7B95000156AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84DE2C1C1D0E7B95000156AC /* PBXTargetDependency */,
+			);
+			name = TTMusicTests;
+			productName = TTMusicTests;
+			productReference = 84DE2C1A1D0E7B95000156AC /* TTMusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84DE2C241D0E7B95000156AC /* TTMusicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DE2C341D0E7B95000156AC /* Build configuration list for PBXNativeTarget "TTMusicUITests" */;
+			buildPhases = (
+				84DE2C211D0E7B95000156AC /* Sources */,
+				84DE2C221D0E7B95000156AC /* Frameworks */,
+				84DE2C231D0E7B95000156AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84DE2C271D0E7B95000156AC /* PBXTargetDependency */,
+			);
+			name = TTMusicUITests;
+			productName = TTMusicUITests;
+			productReference = 84DE2C251D0E7B95000156AC /* TTMusicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84DE2BF91D0E7B95000156AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = DirkChen;
+				TargetAttributes = {
+					84DE2C001D0E7B95000156AC = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 8Y7Z9MFNB4;
+					};
+					84DE2C191D0E7B95000156AC = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 8Y7Z9MFNB4;
+						TestTargetID = 84DE2C001D0E7B95000156AC;
+					};
+					84DE2C241D0E7B95000156AC = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 8Y7Z9MFNB4;
+						TestTargetID = 84DE2C001D0E7B95000156AC;
+					};
+				};
+			};
+			buildConfigurationList = 84DE2BFC1D0E7B95000156AC /* Build configuration list for PBXProject "TTMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84DE2BF81D0E7B95000156AC;
+			productRefGroup = 84DE2C021D0E7B95000156AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84DE2C001D0E7B95000156AC /* TTMusic */,
+				84DE2C191D0E7B95000156AC /* TTMusicTests */,
+				84DE2C241D0E7B95000156AC /* TTMusicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84DE2BFF1D0E7B95000156AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DE2C3A1D0E7C2F000156AC /* Assets in Resources */,
+				84DE2C141D0E7B95000156AC /* LaunchScreen.storyboard in Resources */,
+				84DE2C111D0E7B95000156AC /* Assets.xcassets in Resources */,
+				84DE2C381D0E7C20000156AC /* mlist.plist in Resources */,
+				84DE2C0F1D0E7B95000156AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DE2C181D0E7B95000156AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DE2C231D0E7B95000156AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84DE2BFD1D0E7B95000156AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DE2C0C1D0E7B95000156AC /* ViewController.m in Sources */,
+				84DE2C091D0E7B95000156AC /* AppDelegate.m in Sources */,
+				84DE2C061D0E7B95000156AC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DE2C161D0E7B95000156AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DE2C1F1D0E7B95000156AC /* TTMusicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DE2C211D0E7B95000156AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DE2C2A1D0E7B95000156AC /* TTMusicUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84DE2C1C1D0E7B95000156AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84DE2C001D0E7B95000156AC /* TTMusic */;
+			targetProxy = 84DE2C1B1D0E7B95000156AC /* PBXContainerItemProxy */;
+		};
+		84DE2C271D0E7B95000156AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84DE2C001D0E7B95000156AC /* TTMusic */;
+			targetProxy = 84DE2C261D0E7B95000156AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84DE2C0D1D0E7B95000156AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DE2C0E1D0E7B95000156AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84DE2C121D0E7B95000156AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DE2C131D0E7B95000156AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84DE2C2C1D0E7B95000156AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84DE2C2D1D0E7B95000156AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84DE2C2F1D0E7B95000156AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TTMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dirkchen.TTMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84DE2C301D0E7B95000156AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TTMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dirkchen.TTMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84DE2C321D0E7B95000156AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TTMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dirkchen.TTMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTMusic.app/TTMusic";
+			};
+			name = Debug;
+		};
+		84DE2C331D0E7B95000156AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TTMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dirkchen.TTMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTMusic.app/TTMusic";
+			};
+			name = Release;
+		};
+		84DE2C351D0E7B95000156AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TTMusicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dirkchen.TTMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TTMusic;
+			};
+			name = Debug;
+		};
+		84DE2C361D0E7B95000156AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TTMusicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dirkchen.TTMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TTMusic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84DE2BFC1D0E7B95000156AC /* Build configuration list for PBXProject "TTMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DE2C2C1D0E7B95000156AC /* Debug */,
+				84DE2C2D1D0E7B95000156AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DE2C2E1D0E7B95000156AC /* Build configuration list for PBXNativeTarget "TTMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DE2C2F1D0E7B95000156AC /* Debug */,
+				84DE2C301D0E7B95000156AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84DE2C311D0E7B95000156AC /* Build configuration list for PBXNativeTarget "TTMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DE2C321D0E7B95000156AC /* Debug */,
+				84DE2C331D0E7B95000156AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84DE2C341D0E7B95000156AC /* Build configuration list for PBXNativeTarget "TTMusicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DE2C351D0E7B95000156AC /* Debug */,
+				84DE2C361D0E7B95000156AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84DE2BF91D0E7B95000156AC /* Project object */;
+}
